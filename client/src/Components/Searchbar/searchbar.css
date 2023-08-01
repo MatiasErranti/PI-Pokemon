@@ -1,0 +1,44 @@
+.searchBar{
+    background-color: red;
+    height: 11vh;
+    border-bottom: solid 2px black;
+    margin-bottom: 30px;
+}
+
+
+.formsearch{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+
+}
+#myInput{
+    border-radius: 4px;
+    height: 45%;
+    margin-left: 40px;
+}
+.search{
+    margin-left: 10px;
+    height: 50%;
+    width: 80px;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255,178,0,1) 44%, rgba(252,221,1,1) 74%);
+    border-radius: 4px;
+}
+.close{
+    width: 80px;
+    margin-left: 10px;
+    height: 50%;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255,178,0,1) 44%, rgba(252,221,1,1) 74%);
+    border-radius: 4px;
+} 
+.close:hover{
+    background: linear-gradient(180deg,rgba(252,221,1,1) 74%,  rgba(255,178,0,1) );
+    transform: scale(1.1);
+}
+.search:hover{
+    background: linear-gradient(180deg,rgba(252,221,1,1) 74%, rgba(255,178,0,1)  );
+    transform: scale(1.1);
+}

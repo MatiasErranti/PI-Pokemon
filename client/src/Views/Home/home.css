@@ -1,0 +1,41 @@
+.total{
+    background: linear-gradient( rgba(252,221,1,1) 28%, rgba(255,148,0,1) 78%);
+}
+.div-container{
+    /* background-image: url('https://pbs.twimg.com/media/E0tz4-EXIAIHpAt?format=jpg&name=4096x4096'); */
+    /* background-size: 100% 100%; */
+    /* box-shadow: 12px 12px 2px 100vw rgba(40, 30, 30, 0.258) inset; */
+    /* background: linear-gradient( rgba(252,221,1,1) 28%, rgba(255,148,0,1) 78%); */
+    height: 100%;
+}
+.div-container-filter{
+    /* background: linear-gradient( rgba(252,221,1,1) 28%, rgba(255,148,0,1) 78%); */
+    height: 100vh;
+}
+.div-buttons{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 5px 5px 10px 6px;
+}
+.right{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 6px 10px 5px;
+}
+
+.div-loading{
+    display: flex;  
+   justify-content: center;
+   align-items: center; 
+   width: 100%;
+   height: 100vh;
+}
+.loading-img{
+    height: 200px;
+    width: 480px;
+    margin-right: 100px;
+}
