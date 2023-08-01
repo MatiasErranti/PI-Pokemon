@@ -205,7 +205,6 @@ input[type="range"]{
     width:20px;
     height:20px;
     background: linear-gradient(to right, #f70101 0%, #ff8400 80%); 
-    /* position:relative; */
     border: solid 1px;
     z-index:3;
     box-shadow:0 0 2px 0 rgba(0,0,0,0.3);
